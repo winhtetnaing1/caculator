@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  user-select: none;
 }
 
 *:focus {
@@ -22,9 +23,10 @@ html {
 
 .row {
   width: 500px;
-  padding: 10px 10px 20px;
+  height: 100vh;
+  padding: 30px 10px 20px;
   background-color: #677f8d;
-  margin: 10px auto;
+  margin: auto auto;
   border-radius: 10px;
 }
 
